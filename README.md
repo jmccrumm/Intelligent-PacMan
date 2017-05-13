@@ -4,6 +4,7 @@ Multi-programmed ghosts using different pathfinding algorithms. Automatic moveme
 This is the class project done for CS4820 - Artificial Intelligence at UCCS 2017
 
 PHASE 1
+
 The first phase of the project was to program the ghosts to behave differently according to certain pathfinding algorithms.
 
 Decision points were placed on every intersection of the board as a marker for  spots where a ghost can make a change in movement.
@@ -16,6 +17,7 @@ Inky (blue ghost) and Clyde (orange ghost) work together using the Cooperative A
 
 
 PHASE 2
+
 The second phase of the project was to program PacMan himself. PacMan behaves in one of two ways. If he is close enough to a ghost to be 'concerned', he will take the quickest path away from that ghost until he is far enough to 'relax'. If he is far enough from the closest ghost to not worry about it, he will look in each direction for the closest Pacdot using a raycast (so, in a sense, he can only see the dots 'visible' to him at his current location and not any dots around corners). With Blinky and Pinky, this allows for PacMan to get stuck at positions where he isn't close enough to a ghost to be worried and doesn't see any Pacdots nearby.
 
 
